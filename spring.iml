@@ -10,6 +10,14 @@
         </fileset>
       </configuration>
     </facet>
+    <facet type="Spring" name="Spring2">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/out/production/spring/hellomessage.xml</file>
+          <file>file://$MODULE_DIR$/src/hellomessage.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
@@ -131,5 +139,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>
